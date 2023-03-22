@@ -89,6 +89,11 @@ class _HomeScreenState extends State<HomeScreen> {
               CupertinoIcons.phone_fill,
               color: CupertinoColors.systemGrey,
             ),
+            trailing:  Icon(
+              CupertinoIcons.forward,
+              color: CupertinoColors.systemGrey,
+              size: 13,
+            ),
           ),
           SizedBox(height: 10),
           CupertinoListTile(
@@ -96,7 +101,11 @@ class _HomeScreenState extends State<HomeScreen> {
             leading: Icon(
               CupertinoIcons.mail_solid,
               color: CupertinoColors.systemGrey,
-            ),
+            ),trailing:  Icon(
+            CupertinoIcons.forward,
+            color: CupertinoColors.systemGrey,
+            size: 13,
+          ),
           ),
           SizedBox(height: 10),
           CupertinoListTile(
@@ -104,7 +113,11 @@ class _HomeScreenState extends State<HomeScreen> {
             leading: Icon(
               CupertinoIcons.square_arrow_right,
               color: CupertinoColors.systemGrey,
-            ),
+            ),trailing:  Icon(
+            CupertinoIcons.forward,
+            color: CupertinoColors.systemGrey,
+            size: 13,
+          ),
           ),
           SizedBox(height: 10),
           Padding(
@@ -159,7 +172,11 @@ class _HomeScreenState extends State<HomeScreen> {
             leading: Icon(
               CupertinoIcons.macwindow,
               color: CupertinoColors.systemGrey,
-            ),
+            ),trailing:  Icon(
+            CupertinoIcons.forward,
+            color: CupertinoColors.systemGrey,
+            size: 13,
+          ),
           ),
           SizedBox(height: 10),
           CupertinoListTile(
@@ -167,7 +184,11 @@ class _HomeScreenState extends State<HomeScreen> {
             leading: Icon(
               CupertinoIcons.square_fill_on_square_fill,
               color: CupertinoColors.systemGrey,
-            ),
+            ),trailing:  Icon(
+            CupertinoIcons.forward,
+            color: CupertinoColors.systemGrey,
+            size: 13,
+          ),
           ),
         ],
       ),
